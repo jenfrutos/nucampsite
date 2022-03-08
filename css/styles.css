@@ -13,6 +13,9 @@ h2 {
 header h2 {
     color: #CEC8FF;
 }
+header h1 {
+    color: white;
+}
 
 .site-footer {
     background-image: linear-gradient(#CEC8FF, white);
@@ -23,7 +26,6 @@ header h2 {
     margin: 0;
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
 }
 
 .row-content {
@@ -49,4 +51,10 @@ a, a:hover {
 }
 .carousel {
     border: solid #5637DD;
+}
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
